@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<script src="{% static 'js/script.js' %}" defer></script>
+	<title>{% block title %}HIKKI{% endblock %}</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__links">
+				<a href="" class="header__link">тнн</a>
+				<a href="" class="header__link">яой</a>
+				<a href="" class="header__link">лгбт</a>
+				<a href="" class="header__link">путин</a>
+				<a href="" class="header__link">вор</a>
+			</div>
+			<input type="text" class="header__search" placeholder="Search memes">
+		</div>
+		<div class="blur"></div>
+	</header>
+	
+	<div class="main">
+		{% block content %}
+			there is no content for you
+		{% endblock %}
+	</div>
+</body>
+</html>

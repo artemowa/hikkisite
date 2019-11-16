@@ -8,7 +8,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: 
 }
 
 
@@ -83,8 +82,13 @@ a {
 
 .main {
 	width: 100%;
-	position: absolute;
-	top: 70px;
+	max-width: 1200px;
+	height: 100vh;
+	margin: 80px auto 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 
@@ -94,7 +98,7 @@ a {
 	margin: 0 auto;
 	padding: 10px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	-ms-align-items: flex-start;
 	align-items: flex-start;
 }
@@ -113,13 +117,8 @@ a {
 
 
 .main__block {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 30px;
+	width: 30%;
+	margin: 0 20px 20px;
 }
 
 

@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+.header {
+	width: 100%;
+	position: fixed;
+	background: white;
+	top: 0;
+	left: 0;
+}
