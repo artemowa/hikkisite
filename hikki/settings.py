@@ -15,7 +15,7 @@ def get_env_variable(var_name):
 
 SECRET_KEY = get_env_variable('HIKKI_SECRET_KEY')
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
